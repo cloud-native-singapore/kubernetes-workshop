@@ -5,8 +5,8 @@ Run Kubernetes locally - [Official Repo](https://github.com/kubernetes/minikube)
 Below are the instructions to run on OSX using xhyve.
 
 If you have VirtualBox or VMWare, these hypervisors may conflict with xhyve.
-
 If you are unable to upgrade you OSX version, you may not have xhyve.
+In those cases, follow the Official Repo instructions to run using VirtualBox
 
 If none of the above applies to you, enjoy the power of OSX internal virtualization with xhyve!
 
