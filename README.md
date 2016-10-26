@@ -457,7 +457,7 @@ Build the Docker image for this example application with the following command:
 docker build -t hello-node:v1 -f part2/Dockerfile part2/
 ```
 
-If these steps succeeded, we can not see our hello-node image:
+If these steps succeeded, we can now see our `hello-node` image:
 ```
 docker images | grep node
 ```
