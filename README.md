@@ -82,7 +82,7 @@ A common example is:
 
 ## Set Up
 
-### Local machine
+### Part 1: Set up your local machine
 
 1. Clone this repository
 2. [Join the Chat](https://gitter.im/cloud-native-singapore/kubernetes-workshop)
@@ -96,9 +96,8 @@ A common example is:
    ```
 
    Optional: add auto completion by following instructions returned at end of brew installation.
-6. [Get minikube](MINIKUBE.md)
 
-### Create GCP Account
+### Part 2: Create GCP Account
 
 [Sign up here](https://cloud.google.com/free-trial/?utm_source=google&utm_medium=cpc&utm_campaign=2016-q3-cloud-japac-sg-gcp-bkws-freetrial&utm_content=en&gclid=CjwKEAjw97K_BRCwmNTK26iM-hMSJABrkNtbhQzsSBu8KNVGXKs-ZzuZOntLgsvB2elLa4XJWqb24RoCdcrw_wcB)
 
@@ -107,6 +106,12 @@ Note: Quick side note, a GKE Tutorial is also available.
 After clicking "More..." a Container Engine step through Tutorial is available:
 
 ![GKE Tutorial](pictures/gcloud-gke-tutorial.png)
+
+### Alternative to GCP:
+
+Follow these separate instructions to set up a single node k8s cluster locally:
+
+[Get minikube](MINIKUBE.md)
 
 ## Workshop Start
 
