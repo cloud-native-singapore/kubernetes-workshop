@@ -6,6 +6,7 @@
 This is the material for the "Kubernetes workshop" so far delivered at multiple conferences and events like:
 
 * GCPUG Meetup @ NUS (2016, October)
+* GCPUG Meetup @ Google Singapore (2016, December)
 
 ## Agenda
 
@@ -89,13 +90,6 @@ A common example is:
 3. Get Docker For [Mac](https://docs.docker.com/docker-for-mac/) / [Windows](https://docs.docker.com/docker-for-windows/)
 4. Get [Jq](https://stedolan.github.io/jq)
 5. Get [Google Cloud SDK](https://cloud.google.com/sdk/downloads)
-  
-   Using Brew on OSX:
-   ```
-   brew install Caskroom/cask/google-cloud-sdk
-   ```
-
-   Optional: add auto completion by following instructions returned at end of brew installation.
 
 ### Part 2: Create GCP Account
 
@@ -186,7 +180,7 @@ Highlight of parameter defaults:
 
 * `--machine-type`: `n1-standard-1` (1 vCPU & 3.75GB memory)
 * `--num-nodes`:  3 
-* `--enbable-autoscaling`: off, when enabled - specify `--min-nodes` and `--max-nodes`
+* `--enable-autoscaling`: off, when enabled - specify `--min-nodes` and `--max-nodes`
 * `--image-type`:
 
   * `CONTAINER_VM`: Deprecated, debian 7 based images - Sysvinit resource manager
