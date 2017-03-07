@@ -1,7 +1,6 @@
 # Kubernetes Workshop - GCPUG
 
-[![Join the chat at https://gitter.im/cloud-native-singapore/kubernetes-workshop](https://badges.gitter.im/cloud-native-singapore/kubernetes-workshop.svg)](https://gitter.im/cloud-native-singapore/kubernetes-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+[![Join the singapore channel](https://img.shields.io/badge/slack-ready-green.svg)](https://slack.cncf.io)
 
 This is the material for the "Kubernetes workshop" so far delivered at multiple conferences and events like:
 
@@ -237,6 +236,14 @@ kubectl cluster-info
 Open Dashboard, use basic Auth credentials, default username is "Admin" (Unless cluster was created different `--username` argument
 ```
 gcloud container clusters describe $cluster_name --format="value(masterAuth.password)"
+```
+
+**Note**: cluster and namespace switching aliases:
+
+```
+alias k='kubectl'
+alias knsp='kubectl config set-context `kubectl config current-context` --namespace'
+alias kctx='kubectl config use-context'
 ```
 
 ## Getting Familiar with creating & exposing Deployments
