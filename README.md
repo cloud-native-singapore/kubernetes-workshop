@@ -86,7 +86,8 @@ A common example is:
 ### Part 1: Set up your local machine
 
 1. Clone this repository
-2. [Join the Chat](https://gitter.im/cloud-native-singapore/kubernetes-workshop)
+2. [Join the Chat](https://slack.cncf.io/badge.svg)](https://slack.cncf.io) - 
+[#singapore](https://cloud-native.slack.com/messages/singapore/) channel
 3. Get Docker For [Mac](https://docs.docker.com/docker-for-mac/) / [Windows](https://docs.docker.com/docker-for-windows/)
 4. Get [Jq](https://stedolan.github.io/jq)
 5. Get [Google Cloud SDK](https://cloud.google.com/sdk/downloads)
